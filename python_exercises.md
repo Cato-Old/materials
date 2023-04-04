@@ -48,7 +48,7 @@ Napisz program, który dla podanego stringa wypisze jego potrojoną kopię.
 > `abc`
 #### Wyjście
 > `abcabcabc`
-### Ćwiczenie nr 6
+## Ćwiczenie nr 6
 Napisz program, który dla podanej liczby całkowitej wypisze czy jest ona parzysta czy nieparzysta.
 ### Przykład
 #### Wejście nr 1
