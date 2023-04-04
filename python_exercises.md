@@ -34,3 +34,28 @@ Napisz program, który przyjmie na wejściu od użytkownika string i wyświetla 
 > `p`
 > `t`
 > `o`
+## Ćwiczenie nr 4
+Napisz program, który dla podanej nazwy pliku wypisze rozszerzenie tego pliku.
+### Przykład
+#### Wejście
+> `abc.java`
+#### Wyjście
+> `java`
+## Ćwiczenie nr 5
+Napisz program, który dla podanego stringa wypisze jego potrojoną kopię.
+### Przykład
+#### Wejście
+> `abc`
+#### Wyjście
+> `abcabcabc`
+### Ćwiczenie nr 6
+Napisz program, który dla podanej liczby całkowitej wypisze czy jest ona parzysta czy nieparzysta.
+### Przykład
+#### Wejście nr 1
+> 6
+#### Wyjście nr 1
+> Liczba 6 jest parzysta.
+#### Wejście nr 2
+> 17
+#### Wyjście nr 2
+> Liczba 17 nie jest parzysta.
