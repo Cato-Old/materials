@@ -59,3 +59,28 @@ Napisz program, który dla podanej liczby całkowitej wypisze czy jest ona parzy
 > 17
 #### Wyjście nr 2
 > Liczba 17 nie jest parzysta.
+## Ćwiczenie nr 7
+Napisz funkcję, która przyjmie dowolną liczbę argumentów w postaci liczb całkowitych i zwróci ich sumę. Nie można użyć wbudowanej funkcji **sum**.
+### Przykład
+#### Wejście
+> sum_up(1, 2, 3, 4, 5)
+#### Wyjście
+> 15
+## Ćwiczenie nr 8
+Napisz funkcję, która odwróci przekazany do niej string.
+### Przykład
+#### Wejście
+> reverse_string("abcd1234")
+#### Wyjście
+> "4321dcba"
+## Ćwiczenie nr 9
+Napisz funkcję `show_employee`, która będzie przyjmowała dwa argumenty: obowiązkowy - nazwisko oraz opcjonalny - wynagrodzenie. Funkcja powinna zwrócić string, zawierający nazwisko pracownika oraz wynagrodzenie - o ile zostało podane, w przeciwnym wypadku wysokość wynagrodzenia powinna wynieść 9 000.
+### Przykład
+#### Wejście nr 1
+> show_employee("Kowalski", 12000)
+#### Wyjście nr 1
+> Pracownik Kowalski zarabia 12000 zł
+#### Wejście nr 2
+> show_employee("Nowak")
+#### Wyjście nr 2
+> Pracownik Nowak zarabia 9000 zł
