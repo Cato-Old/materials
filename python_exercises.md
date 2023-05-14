@@ -84,3 +84,39 @@ Napisz funkcję `show_employee`, która będzie przyjmowała dwa argumenty: obow
 > show_employee("Nowak")
 #### Wyjście nr 2
 > Pracownik Nowak zarabia 9000 zł
+## Ćwiczenie nr 9
+Napisz funkcję `parity_analisis`, która przyjmuje na wejściu liczbę całkowitą i zwraca `True` jeśli suma jej cyfr ma tę samą parzystość co dana liczba. W przeciwnym razie, zwraca `False`.
+### Przykład
+#### Wejście nr 1
+> parity_analysis(243)
+#### Wyjście nr 1
+> True
+> # 243 jest nieparzyste i (2+4+3) = 9 jest nieparzyste -> True
+#### Wejście nr 2
+> parity_analisis(12)
+#### Wyjście nr 2
+> False
+> # 12 jest parzyste natomiast (1 + 2) = 3 jest nieparzyste -> False
+#### Wejście nr 3
+> parity_analisis(3)
+#### Wyjście nr 3
+> True
+> # 3 jest nieparzyste i 3 (suma cyfr) jest nieparzyste -> True
+## Ćwiczenie nr 10
+Napisz funkcję `binary`, która przyjmuje na wejściu reprezentację dziesiętną i zwraca binarną reprezentację tej liczby jako string. Reprezentacja binarna jest oparta na potęgach 2 - liczba dziesiętna 169 ma binarną reprezentacje 10101001(2) = 1 * 2^0 + 1 * 2^3 + 1 * 2^5 + 1 * 2^7 = 1 + 8 + 32 + 128 = 169.
+### Przykład
+#### Wejście nr 1
+> binary(1)
+#### Wyjście nr 1
+> "1"
+> # 1 = 1 * 2^0
+#### Wejście nr 2
+> binary(5)
+#### Wyjście nr 2
+> "101"
+> # 5 = 1 * 2^2 + 1 * 2^0 = 4 + 1
+#### Wejście nr 3
+> binary(10)
+#### Wyjście nr 
+> "1010"
+> # 10 = 1 * 2^4 + 1 * 2^1 = 8 + 2 = 10
