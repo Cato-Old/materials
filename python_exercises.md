@@ -120,3 +120,10 @@ Napisz funkcję `binary`, która przyjmuje na wejściu reprezentację dziesiętn
 #### Wyjście nr 
 > "1010"
 > \# 10 = 1 * 2^4 + 1 * 2^1 = 8 + 2 = 10
+## Ćwiczenie nr 12
+Napisz funkcję `flatten`, która przyjmuje na wejściu zagnieżdżoną listę i zwraca pojedynczą płaską listę, zawierającą wszystkie skalarne wartości oprócz `None`. Funkcja powinna przyjmować dowolnie głęboko zagnieżdżone listy lub tuple.
+### Przykład
+#### Wejście
+> flatten([[1, 2, 3, null, 4], [null], 5])
+#### Wyjście
+> [1, 2, 3, 4, 5]
