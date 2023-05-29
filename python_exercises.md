@@ -127,3 +127,22 @@ Napisz funkcję `flatten`, która przyjmuje na wejściu zagnieżdżoną listę i
 > flatten([[1, 2, 3, null, 4], [null], 5])
 #### Wyjście
 > [1, 2, 3, 4, 5]
+## Ćwiczenie 13
+Stwórz funkcję, która na wejściu będzie przyjmowała liczbę całkowitą i zwróci `True` jeżeli liczba jest symetryczna oraz `False` jeżeli nie jest symetryczna. Liczba jest symetryczna, jeżeli po jej odwróceniu otrzymujemy tę samą liczbę.
+### Przykład
+#### Wejście nr 1
+> is_symmetrical(7227)
+#### Wyjście nr 1
+> True
+#### Wejście nr 2
+> is_symmetrical(12567)
+#### Wyjście nr 2
+> False
+#### Wejście nr 3
+> is_symmetrical(444444444)
+#### Wyjście nr 3
+> True
+#### Wejście nr 4
+> is_symmetrical(1112111)
+#### Wyjście nr 4
+> True
