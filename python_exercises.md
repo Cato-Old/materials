@@ -146,3 +146,36 @@ Stwórz funkcję, która na wejściu będzie przyjmowała liczbę całkowitą i 
 > is_symmetrical(1112111)
 #### Wyjście nr 4
 > True
+## Ćwiczenie 14
+Napisz program, który na wejściu będzie przyjmował listę liczb całkowitych oddzielonych spacjami, zweryfikuje ich poprawność i zwróci posortowaną listę w porządku rosnącym. W razie nieprawidłowych danych wejściowych zostanie wypisany komunikat: `Invalid input data: ` i nieprawidłowy element.
+### Przykład
+#### Wejście nr 1
+> 5 1 2 4 6
+#### Wyjście nr 1
+> 1 2 4 5 6
+#### Wejście nr 2
+> 5 1 2 4 asdf
+#### Wyjście nr 2
+> Invalid input data: asdf
+## Ćwiczenie 15
+Dana jest lista zawierająca krotki z informacją o początku (pierwsza pozycja) i końcu wydarzenia (druga pozycja) w postaci liczb całkowitych. Napisz funkcję `sort_by_start`, która zwróci lisę krotek posortowaną w kolejności rosnącej według startów wydarzeń.
+### Przykład
+#### Wejście nr 1
+> sort_by_start([(2, 3), (1, 4), (0, 10)])
+#### Wyjście nr 1
+> [(0, 10), (1, 4), (2, 3)]
+## Ćwiczenie 16
+Duża liczba całkowita jest reprezentowana poprzez listę jej cyfr. Napisz funkcję `add_one`, która zwróci taką samą reprezentację liczby po dodaniu do niej 1.
+### Przykład
+#### Wejście nr 1
+> add_one([1, 2, 3])
+#### Wyjście nr 1
+> [1, 2, 4]
+#### Wejście nr 2
+> add_one([4, 3, 2, 1])
+#### Wyjście nr 2
+> [4, 3, 2, 2]
+#### Wejście nr 3
+> add_one([9])
+#### Wyjście nr 3
+> [1, 0]
